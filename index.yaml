@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  ecco-sp:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2024-10-15T20:50:32.535791796+02:00"
+    description: ecco-sp Helm chart for Kubernetes
+    digest: e2c630510a09e88ca65398ef589b9733c60da0818c3e6126564ba0e759568c63
+    name: ecco-sp
+    urls:
+    - ecco-sp-4.14.0.tgz
+    version: 4.14.0
+generated: "2024-10-15T20:50:32.52879481+02:00"
