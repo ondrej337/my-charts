@@ -3,11 +3,21 @@ entries:
   ecp-endpoint:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-10-18T08:46:58.355499941+02:00"
+    created: "2024-10-18T08:48:36.192402968+02:00"
     description: A Helm chart for Kubernetes
     digest: 95dcf9fbfb9cebfa335159b14f58c3ecc1c543b5094bdf48bde2b2ca73214bf3
     name: ecp-endpoint
     urls:
     - ecp-endpoint-4.14.0.tgz
     version: 4.14.0
-generated: "2024-10-18T08:46:58.354070893+02:00"
+  edx-toolbox:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2024-10-18T08:48:36.193506316+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 9cd3ad63f351ebd53b0a399f6a2add8b70e761c79cb966552adb4b3739c89b5f
+    name: edx-toolbox
+    urls:
+    - edx-toolbox-1.14.0.tgz
+    version: 1.14.0
+generated: "2024-10-18T08:48:36.191123154+02:00"
