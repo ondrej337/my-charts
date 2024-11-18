@@ -1,13 +1,13 @@
 apiVersion: v1
 entries:
   edx-toolbox:
-  - apiVersion: v1
+  - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-10-22T16:35:17.083197192+02:00"
+    created: "2024-11-18T20:49:50.847359597+01:00"
     description: A Helm chart for Kubernetes
-    digest: 2af9c84a7b11d6f7dfd99b00af5adf6c366ca6a41a3fee4690231bbfb9ed5eff
+    digest: fd2a477e6fdfb2d4e34cc93fb5f2dbf0b1dbda3e74e7855fb2cbeb9ee1de2d99
     name: edx-toolbox
     urls:
     - edx-toolbox-1.14.0.tgz
     version: 1.14.0
-generated: "2024-10-22T16:35:17.08167141+02:00"
+generated: "2024-11-18T20:49:50.843647941+01:00"
