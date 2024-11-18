@@ -1,0 +1,6 @@
+dependencies:
+
+- name: edx-toolbox
+  version: 1.14.0
+  repository: file://./charts/edx-toolbox
+  condition: edx-toolbox.enabled
