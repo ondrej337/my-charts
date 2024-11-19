@@ -3,36 +3,16 @@ entries:
   ecco-sp:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-11-19T05:37:38.079225329+01:00"
+    created: "2024-11-19T06:02:03.4502661+01:00"
     dependencies:
-    - condition: ecp-endpoint.enabled
-      name: ecp-endpoint
-      repository: file://./charts/ecp-endpoint
-      version: 4.14.0
-    - condition: ecp-directory.enabled
-      name: ecp-directory
-      repository: file://./charts/ecp-directory
-      version: 4.14.0
-    - condition: ecp-broker.enabled
-      name: ecp-broker
-      repository: file://./charts/ecp-broker
-      version: 4.14.0
-    - condition: edx-catalogue.enabled
-      name: edx-catalogue
-      repository: file://./charts/edx-catalogue
-      version: 1.14.0
     - condition: edx-toolbox.enabled
       name: edx-toolbox
       repository: file://./charts/edx-toolbox
       version: 1.14.0
-    - condition: eccosp-artemis.enabled
-      name: eccosp-artemis
-      repository: file://./charts/eccosp-artemis
-      version: 4.14.0
     description: ecco-sp Helm chart for Kubernetes
-    digest: 7d3a6c40f6f894efa92e37bb1ea190b878f02dde2a631b1c4318683c889a65f4
+    digest: 27e8e78dd77b6cf8a2542ab035e634092e4634b702a13cd2b1846614267258a5
     name: ecco-sp
     urls:
     - ecco-sp-4.14.0.tgz
     version: 4.14.0
-generated: "2024-11-19T05:37:38.059364763+01:00"
+generated: "2024-11-19T06:02:03.441504199+01:00"
