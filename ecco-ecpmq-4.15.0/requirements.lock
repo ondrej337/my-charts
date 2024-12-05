@@ -1,0 +1,15 @@
+dependencies:
+- name: ecp-endpoint
+  repository: file://./charts/ecp-endpoint
+  version: 4.15.0
+- name: ecp-directory
+  repository: file://./charts/ecp-directory
+  version: 4.15.0
+- name: ecp-broker
+  repository: file://./charts/ecp-broker
+  version: 4.15.0
+- name: eccosp-artemis
+  repository: file://./charts/eccosp-artemis
+  version: 4.15.0
+digest: sha256:34cd3b236c2458d1b3907b3ff0dd6251c8bf019e0bf3e051350811a0eb7a884b
+generated: "2024-12-05T14:42:15.804874391+01:00"
