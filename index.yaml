@@ -3,7 +3,7 @@ entries:
   ecco-sp:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-12-05T14:44:32.398060906+01:00"
+    created: "2024-12-05T14:52:47.548897957+01:00"
     dependencies:
     - condition: ecp-endpoint.enabled
       name: ecp-endpoint
@@ -17,27 +17,19 @@ entries:
       name: ecp-broker
       repository: file://./charts/ecp-broker
       version: 4.15.0
-    - condition: edx-catalogue.enabled
-      name: edx-catalogue
-      repository: file://./charts/edx-catalogue
-      version: 1.15.0
-    - condition: edx-toolbox.enabled
-      name: edx-toolbox
-      repository: file://./charts/edx-toolbox
-      version: 1.15.0
     - condition: eccosp-artemis.enabled
       name: eccosp-artemis
       repository: file://./charts/eccosp-artemis
       version: 4.15.0
     description: ecco-sp Helm chart for Kubernetes
-    digest: 73f778f447c1f6ee45a658907550d84fafb313fc113019ba15182fcafe81fab3
+    digest: 6ac2600ead7e1799d57e6aa8a844d968465a69b9b0528beb15ae5f59e15608bf
     name: ecco-sp
     urls:
     - ecco-sp-4.15.0.tgz
     version: 4.15.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-12-05T14:44:32.390803353+01:00"
+    created: "2024-12-05T14:52:47.538489405+01:00"
     dependencies:
     - condition: ecp-endpoint.enabled
       name: ecp-endpoint
@@ -72,7 +64,7 @@ entries:
   ecp-endpoint:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-12-05T14:44:32.399081748+01:00"
+    created: "2024-12-05T14:52:47.550002975+01:00"
     description: A Helm chart for Kubernetes
     digest: a7aa01cd8e6eb19a317c65c73149bfb942677d431462c2c9f96c6aeeb7af2bd8
     name: ecp-endpoint
@@ -82,7 +74,7 @@ entries:
   edx-toolbox:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-05T14:44:32.401521645+01:00"
+    created: "2024-12-05T14:52:47.551566458+01:00"
     description: A Helm edx toolbox chat for Kubernetes
     digest: af526f489942fc530e237bc3da836f4d4378680cb73caa32265891a5a471975c
     name: edx-toolbox
@@ -90,4 +82,4 @@ entries:
     urls:
     - edx-toolbox-1.14.0.tgz
     version: 1.14.0
-generated: "2024-12-05T14:44:32.378780966+01:00"
+generated: "2024-12-05T14:52:47.527359694+01:00"
