@@ -1,0 +1,6 @@
+dependencies:
+
+- name: ecp-endpoint
+  version: 4.15.0
+  repository: file://./charts/ecp-endpoint
+  condition: ecp-endpoint.enabled
