@@ -1,0 +1,21 @@
+dependencies:
+- name: ecp-endpoint
+  repository: file://./charts/ecp-endpoint
+  version: 4.15.0
+- name: ecp-directory
+  repository: file://./charts/ecp-directory
+  version: 4.15.0
+- name: ecp-broker
+  repository: file://./charts/ecp-broker
+  version: 4.15.0
+- name: edx-catalogue
+  repository: file://./charts/edx-catalogue
+  version: 1.15.0
+- name: edx-toolbox
+  repository: file://./charts/edx-toolbox
+  version: 1.15.0
+- name: eccosp-artemis
+  repository: file://./charts/eccosp-artemis
+  version: 4.15.0
+digest: sha256:af95e22af72c24b7e1602bc2d06b768f0978eccb59ae78df1ade2a7ca334a509
+generated: "2024-12-05T20:35:48.752571022+01:00"
