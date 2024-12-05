@@ -3,33 +3,21 @@ entries:
   ecco-sp:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-12-05T14:52:47.548897957+01:00"
+    created: "2024-12-05T15:19:28.117304215+01:00"
     dependencies:
     - condition: ecp-endpoint.enabled
       name: ecp-endpoint
       repository: file://./charts/ecp-endpoint
       version: 4.15.0
-    - condition: ecp-directory.enabled
-      name: ecp-directory
-      repository: file://./charts/ecp-directory
-      version: 4.15.0
-    - condition: ecp-broker.enabled
-      name: ecp-broker
-      repository: file://./charts/ecp-broker
-      version: 4.15.0
-    - condition: eccosp-artemis.enabled
-      name: eccosp-artemis
-      repository: file://./charts/eccosp-artemis
-      version: 4.15.0
     description: ecco-sp Helm chart for Kubernetes
-    digest: 6ac2600ead7e1799d57e6aa8a844d968465a69b9b0528beb15ae5f59e15608bf
+    digest: db60c0971b6f182de71601fe1e7ee9b888295de089208c27332ede22d5f21390
     name: ecco-sp
     urls:
     - ecco-sp-4.15.0.tgz
     version: 4.15.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-12-05T14:52:47.538489405+01:00"
+    created: "2024-12-05T15:19:28.110301188+01:00"
     dependencies:
     - condition: ecp-endpoint.enabled
       name: ecp-endpoint
@@ -61,20 +49,10 @@ entries:
     urls:
     - ecco-sp-4.14.0.tgz
     version: 4.14.0
-  ecp-endpoint:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2024-12-05T14:52:47.550002975+01:00"
-    description: A Helm chart for Kubernetes
-    digest: a7aa01cd8e6eb19a317c65c73149bfb942677d431462c2c9f96c6aeeb7af2bd8
-    name: ecp-endpoint
-    urls:
-    - ecp-endpoint-4.15.0.tgz
-    version: 4.15.0
   edx-toolbox:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-05T14:52:47.551566458+01:00"
+    created: "2024-12-05T15:19:28.120753418+01:00"
     description: A Helm edx toolbox chat for Kubernetes
     digest: af526f489942fc530e237bc3da836f4d4378680cb73caa32265891a5a471975c
     name: edx-toolbox
@@ -82,4 +60,4 @@ entries:
     urls:
     - edx-toolbox-1.14.0.tgz
     version: 1.14.0
-generated: "2024-12-05T14:52:47.527359694+01:00"
+generated: "2024-12-05T15:19:28.097184486+01:00"
