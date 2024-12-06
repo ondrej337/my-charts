@@ -3,7 +3,7 @@ entries:
   ecco-sp:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-12-06T18:20:45.654605888+01:00"
+    created: "2024-12-06T19:10:07.425723884+01:00"
     dependencies:
     - condition: ecp-endpoint.enabled
       name: ecp-endpoint
@@ -36,9 +36,18 @@ entries:
     - ecco-sp-4.15.0.tgz
     version: 4.15.0
   ecp-endpoint:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2024-12-06T19:10:07.430488267+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 09d3edf38b5893276e8426aaeb07137e90808807850c283ebee070917918f792
+    name: ecp-endpoint
+    urls:
+    - ecp-endpoint-4.15.1.tgz
+    version: 4.15.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-06T18:20:45.657811606+01:00"
+    created: "2024-12-06T19:10:07.429397299+01:00"
     dependencies:
     - condition: ecp-endpoint.enabled
       name: ecp-endpoint
@@ -53,7 +62,7 @@ entries:
   edx-toolbox:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-06T18:20:45.659316385+01:00"
+    created: "2024-12-06T19:10:07.433863766+01:00"
     description: A Helm edx toolbox chat for Kubernetes
     digest: af526f489942fc530e237bc3da836f4d4378680cb73caa32265891a5a471975c
     name: edx-toolbox
@@ -64,7 +73,7 @@ entries:
   my-ecp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-12-06T18:20:45.660636127+01:00"
+    created: "2024-12-06T19:10:07.435678602+01:00"
     description: A Helm chart for Kubernetes
     digest: 1c133781db933b03dbd2af34142ac6ba884339055a88e793ab86d1340732adb1
     name: my-ecp
@@ -72,4 +81,4 @@ entries:
     urls:
     - my-ecp-4.15.0.tgz
     version: 4.15.0
-generated: "2024-12-06T18:20:45.635705067+01:00"
+generated: "2024-12-06T19:10:07.410435589+01:00"
