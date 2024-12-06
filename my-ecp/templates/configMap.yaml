@@ -1,5 +1,5 @@
 {{- range $i, $instance := .Values.instance }}
-{{- $version := "4.12.0" -}}
+{{- $version := "4.15.0" -}}
 {{- if regexMatch "^[0-9]+\\.?[0-9]+\\.?[0-9]+\\.?.*" ($instance.image).tag -}}
 {{ $version = regexReplaceAll "^([0-9]+\\.?)([0-9]+\\.?)([0-9]+)\\.?(.*)" ($instance.image).tag "${1}${2}${3}" -}}
 {{- end -}}
