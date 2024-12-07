@@ -1,6 +1,0 @@
-dependencies:
-- name: ecp-endpoint
-  repository: file://./charts/ecp-endpoint
-  version: 4.15.0
-digest: sha256:d333f503315f00b40d5e40de9cd148552ba3f0331166933683b1bf01b141e01f
-generated: "2024-12-06T18:04:09.059015762+01:00"
