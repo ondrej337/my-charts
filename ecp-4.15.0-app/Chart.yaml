@@ -1,7 +1,7 @@
 apiVersion: v2
 appVersion: "1.0"
 description: A Helm chart for Kubernetes
-name: ecp-endpoint
+name: ecp-endpoint-app
 version: 4.15.0
 
 dependencies:
