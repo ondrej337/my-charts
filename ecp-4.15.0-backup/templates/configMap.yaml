@@ -571,14 +571,6 @@ data:
                 <!--
                 <Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster"/>
                 -->
-                {{- if $instance.sessionReplication }}
-                <Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster">
-                  <Channel className="org.apache.catalina.tribes.group.GroupChannel">
-                    <Membership className="org.apache.catalina.tribes.membership.cloud.CloudMembershipService"
-                      membershipProviderClassName="org.apache.catalina.tribes.membership.cloud.DNSMembershipProvider"/>
-                  </Channel>
-                </Cluster>
-                {{- end }}
 
                 <!-- Use the LockOutRealm to prevent attempts to guess user passwords
                      via a brute-force attack -->
