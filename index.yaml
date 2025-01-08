@@ -3,7 +3,7 @@ entries:
   eccosp-artemis:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2025-01-08T15:27:05.022244695+01:00"
+    created: "2025-01-08T19:32:33.090920334+01:00"
     description: A Helm chart for Kubernetes
     digest: 9e23bce5c611a4533f6cc4ecb1cf5c3cb245e10ddd3575c3bc5dd34e1f9ba8db
     name: eccosp-artemis
@@ -13,9 +13,9 @@ entries:
   ecp-endpoint:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2025-01-08T15:27:05.023246808+01:00"
+    created: "2025-01-08T19:32:33.092341569+01:00"
     description: A Helm chart for Kubernetes
-    digest: a3b345c2df919874399ec335e0e4ba59175c9d82301b7157dffab42c95cd2729
+    digest: 9e6508e3daa483ee6524b8b0c7960fc7e25002d62b70732f4f7894ecb3da3647
     name: ecp-endpoint
     urls:
     - ecp-endpoint-4.15.0.tgz
@@ -23,7 +23,7 @@ entries:
   ecp-endpoint-app:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-01-08T15:27:05.031938885+01:00"
+    created: "2025-01-08T19:32:33.096675303+01:00"
     dependencies:
     - condition: ecp-endpoint.enabled
       name: ecp-endpoint
@@ -38,7 +38,7 @@ entries:
   edx-toolbox:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2025-01-08T15:27:05.033699645+01:00"
+    created: "2025-01-08T19:32:33.09852196+01:00"
     description: A Helm chart for Kubernetes
     digest: 9106a9e40e170b47e0fb2de5fd7322ae4a8f31871e52e73add3b66ed2a46de13
     name: edx-toolbox
@@ -48,11 +48,11 @@ entries:
   edx-toolbox-app:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2025-01-08T15:27:05.035302383+01:00"
+    created: "2025-01-08T19:32:33.100343227+01:00"
     description: A Helm chart for Kubernetes
     digest: 8e09af583f85f972fb4714bd95d13d7c26404ea091c159ca6284c307488a24d9
     name: edx-toolbox-app
     urls:
     - edx-toolbox-app-1.15.0.tgz
     version: 1.15.0
-generated: "2025-01-08T15:27:05.020425139+01:00"
+generated: "2025-01-08T19:32:33.087127223+01:00"
