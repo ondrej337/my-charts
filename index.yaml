@@ -3,66 +3,31 @@ entries:
   eccosp-artemis:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2025-01-16T15:57:54.663602846+01:00"
+    created: "2025-02-26T10:03:38.456307612+01:00"
     description: A Helm chart for Kubernetes
-    digest: dc929e275cf419a0578578c3fd4f630d92a23f1ee7b11a75b040bd6d313b6c4d
+    digest: 029b0894a26a3b359bee17fedd53f374cb2e42ce22f26867873e6d241e9cd7f0
     name: eccosp-artemis
     urls:
     - eccosp-artemis-4.15.0.tgz
     version: 4.15.0
-  ecp-directory:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2025-01-16T15:57:54.664784448+01:00"
-    description: A Helm chart for Kubernetes
-    digest: 339b24af70db37a826cffe2aaa6657fd249d536bd25b3e6571fe1b08a658c090
-    name: ecp-directory
-    urls:
-    - ecp-directory-4.15.0.tgz
-    version: 4.15.0
   ecp-endpoint:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2025-01-16T15:57:54.665838442+01:00"
+    created: "2025-02-26T10:03:38.457330027+01:00"
     description: A Helm chart for Kubernetes
-    digest: 9e6508e3daa483ee6524b8b0c7960fc7e25002d62b70732f4f7894ecb3da3647
+    digest: 23eea45c7909345fa3890b3969039bcd7883303f7da2f236aef8f45186627e4b
     name: ecp-endpoint
     urls:
     - ecp-endpoint-4.15.0.tgz
     version: 4.15.0
-  ecp-endpoint-app:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2025-01-16T15:57:54.671069369+01:00"
-    dependencies:
-    - condition: ecp-endpoint.enabled
-      name: ecp-endpoint
-      repository: file://./charts/ecp-endpoint
-      version: 4.15.0
-    description: A Helm chart for Kubernetes
-    digest: fe865675c6ecc558862f62c5899e5b2b7718957c05ea1cee59e5df2f7af5eb5e
-    name: ecp-endpoint-app
-    urls:
-    - ecp-endpoint-app-4.15.0.tgz
-    version: 4.15.0
   edx-toolbox:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2025-01-16T15:57:54.672377078+01:00"
+    created: "2025-02-26T10:03:38.458414381+01:00"
     description: A Helm chart for Kubernetes
-    digest: 9106a9e40e170b47e0fb2de5fd7322ae4a8f31871e52e73add3b66ed2a46de13
+    digest: 9e94b0a0ba5f186436a3268ebf787ae9188f7b17bf1cfa1acf64f71cbb69492a
     name: edx-toolbox
     urls:
     - edx-toolbox-1.15.0.tgz
     version: 1.15.0
-  edx-toolbox-app:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2025-01-16T15:57:54.673713444+01:00"
-    description: A Helm chart for Kubernetes
-    digest: 8e09af583f85f972fb4714bd95d13d7c26404ea091c159ca6284c307488a24d9
-    name: edx-toolbox-app
-    urls:
-    - edx-toolbox-app-1.15.0.tgz
-    version: 1.15.0
-generated: "2025-01-16T15:57:54.662290621+01:00"
+generated: "2025-02-26T10:03:38.454942145+01:00"
