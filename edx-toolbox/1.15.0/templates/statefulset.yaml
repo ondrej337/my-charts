@@ -170,7 +170,7 @@ spec:
               scheme: {{ if (($instance.service).https).port -}}HTTPS{{- else -}}HTTP{{- end }}
               httpHeaders:
               - name: Authorization
-                value: {{ $firstUser := index $instance.edxUsersProperties.edxTooboxUsers 0 }} {{ printf "Basic %s" (b64enc (printf "%s:%s" $firstUser.login $firstUser.password )) }} 
+                value: {{ $firstUser := index $instance.edxUsersProperties.edxToolboxUsers 0 }} {{ printf "Basic %s" (b64enc (printf "%s:%s" $firstUser.login $firstUser.password )) }} 
             initialDelaySeconds: 120
             periodSeconds: 60
             {{- end }}
